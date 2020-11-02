@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T21:12:20.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="uBfn3inks5B0MF-W_6Ve" version="13.8.8" type="github">
-  <diagram id="hjUEH4msfyzGKsHQrfhx" name="Block Diagram">
+<mxfile host="app.diagrams.net" modified="2020-11-02T21:21:59.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="UEor5Jjw2gdac1mMV07x" version="13.8.8" type="github">
+  <diagram id="hjUEH4msfyzGKsHQrfhx" name="Diagram">
     <mxGraphModel dx="1395" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-2" value="SailTrack Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="1">
-          <mxGeometry x="205" y="20" width="760" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="690" width="350" height="62" as="geometry" />
         </mxCell>
@@ -96,6 +93,9 @@
         </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-15" value="Capacitive Plate" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="474.5" y="480" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="U5PaoAbjhaj6AL8_XkUC-2" value="SailTrack Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
