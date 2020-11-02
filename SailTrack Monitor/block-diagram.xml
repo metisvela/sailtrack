@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T21:11:51.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="0oZT5NP8rPUrM1HCKmLR" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T21:12:04.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="XWFjkLmPUIIzFaOI1YEW" version="13.8.8" type="github">
   <diagram id="hjUEH4msfyzGKsHQrfhx" name="Block Diagram">
     <mxGraphModel dx="1395" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-28" value="(PH2.0-2P)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="OVx03EQgnIGB9eMjIuCt-21">
           <mxGeometry x="0.1408" y="2" relative="1" as="geometry">
-            <mxPoint x="4" as="offset" />
+            <mxPoint x="4" y="-4.65" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-12" value="Battery Manager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
