@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T09:14:39.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" version="13.8.8" etag="5ZqCVrR_uhNO2KDbjixH" type="github"><diagram id="nVs1o0DrMwcnErtjXx_R">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-02T10:02:57.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="q1Gken4Qqs_KIQ2UuXpi" version="13.8.8" type="github">
+  <diagram id="nVs1o0DrMwcnErtjXx_R" name="Block Diagram">
+    <mxGraphModel dx="1395" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-14" target="Dlu4i82-ehiPHmXYPcWT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-46" value="5525 DC Jack" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-24">
+          <mxGeometry x="0.0947" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-1" value="SailTrack Core" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="1">
+          <mxGeometry x="205" y="20" width="760" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-3" target="Dlu4i82-ehiPHmXYPcWT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-3" target="Dlu4i82-ehiPHmXYPcWT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-42" value="GPIO + I2C" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-36">
+          <mxGeometry x="-0.0614" y="-3" relative="1" as="geometry">
+            <mxPoint x="4" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-3" value="Raspberry Pi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="267" y="354.5" width="199" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-14" value="Power Manager&lt;br&gt;+ UPS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="604" y="354.5" width="199" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-15" target="Dlu4i82-ehiPHmXYPcWT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-45" value="XH2.54-2P" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-25">
+          <mxGeometry x="0.0707" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-15" value="Li-Ion Battery Pack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="604" y="490" width="199" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-16" target="Dlu4i82-ehiPHmXYPcWT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-43" value="PH2.0-4P" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-23">
+          <mxGeometry x="-0.2546" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-16" value="Power Push Button&lt;br&gt;+ LED Indicator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="604" y="210" width="199" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-17" value="Charger Connector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="944" y="350" width="199" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-18" target="Dlu4i82-ehiPHmXYPcWT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-39" value="I2C" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-28">
+          <mxGeometry x="0.0672" y="2" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-18" value="IMU" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="316" y="216" width="101" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-19" target="Dlu4i82-ehiPHmXYPcWT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-40" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-29">
+          <mxGeometry x="0.2442" y="2" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-19" target="Dlu4i82-ehiPHmXYPcWT-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-52" value="u.FL" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-49">
+          <mxGeometry x="0.0651" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-19" value="GPS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="67" y="354.5" width="101" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-20" target="Dlu4i82-ehiPHmXYPcWT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-41" value="UART" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-27">
+          <mxGeometry x="0.0522" y="2" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-20" target="Dlu4i82-ehiPHmXYPcWT-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-51" value="SMA-K" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Dlu4i82-ehiPHmXYPcWT-50">
+          <mxGeometry x="-0.0754" y="1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-20" value="LoRa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="316" y="496" width="101" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-47" value="External Antenna" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-48" value="External Antenna" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="299" y="621" width="135" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
