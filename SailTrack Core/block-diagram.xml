@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T21:19:12.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="N1hzygwizBP8YE3craBt" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-02T21:22:04.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="7wMWx6zigsQ7ENBsy268" version="13.8.8" type="github">
   <diagram id="nVs1o0DrMwcnErtjXx_R" name="Diagram">
     <mxGraphModel dx="1395" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Cn9nSF7cN-7bSOWpypP1-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" vertex="1" parent="1">
+        <mxCell id="Cn9nSF7cN-7bSOWpypP1-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="690" width="350" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" parent="1" source="Dlu4i82-ehiPHmXYPcWT-14" target="Dlu4i82-ehiPHmXYPcWT-17" edge="1">
@@ -112,41 +112,25 @@
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-48" value="External Antenna" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="299" y="621" width="135" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Cn9nSF7cN-7bSOWpypP1-7" value="I&lt;sup&gt;2&lt;/sup&gt;C&lt;br style=&quot;font-size: 15px&quot;&gt;(GPIO)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
+        <mxCell id="Cn9nSF7cN-7bSOWpypP1-7" value="I&lt;sup&gt;2&lt;/sup&gt;C&lt;br style=&quot;font-size: 15px&quot;&gt;(GPIO)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="770" y="719" as="geometry" />
         </mxCell>
-        <mxCell id="Cn9nSF7cN-7bSOWpypP1-8" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="1">
+        <mxCell id="Cn9nSF7cN-7bSOWpypP1-8" value="" style="endArrow=classic;html=1;fontSize=15;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="862" y="712" as="sourcePoint" />
             <mxPoint x="802" y="712" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cn9nSF7cN-7bSOWpypP1-9" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="1">
+        <mxCell id="Cn9nSF7cN-7bSOWpypP1-9" value="" style="endArrow=classic;html=1;fontSize=15;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="863" y="730" as="sourcePoint" />
             <mxPoint x="823" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cn9nSF7cN-7bSOWpypP1-10" value="Communication Protocol (if any)&lt;br&gt;Connection Type" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
+        <mxCell id="Cn9nSF7cN-7bSOWpypP1-10" value="Communication Protocol (if any)&lt;br&gt;Connection Type" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="870" y="719" as="geometry" />
         </mxCell>
-        <mxCell id="Bvl33ocwJGsY3pMKvNfA-1" value="SailTrack Core" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="1">
-          <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
-        </mxCell>
-        <UserObject label="%date{ddd mmm dd yyyy HH:MM:ss}%" placeholders="1" id="Wl4lp-uv_t0Lf_vhD9-T-2">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="40" y="780" width="220" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="1TQDk9nhmPLUrh0xXp_t" name="Details">
-    <mxGraphModel dx="1395" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="D0wYJWxVUp4gL21UUttX-0" />
-        <mxCell id="D0wYJWxVUp4gL21UUttX-1" parent="D0wYJWxVUp4gL21UUttX-0" />
-        <mxCell id="vRwZLuuyemDH21TCAYwu-0" value="Details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="D0wYJWxVUp4gL21UUttX-1">
+        <mxCell id="Bvl33ocwJGsY3pMKvNfA-1" value="SailTrack Core" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" parent="1" vertex="1">
           <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
         </mxCell>
       </root>
