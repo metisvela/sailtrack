@@ -2,10 +2,10 @@
 Repository containing the documentation of the SailTrack project.
 
 There is a directory for every active module of the project in which you can find:
+* A README file containing a brief description of the module
 * The XML file of the module's block diagram, created using [diagrams.net](https://www.diagrams.net)
 * The rendered block diagram as a PDF file
 * The CSV file of the module's Bill Of Materials (BOM)
-* A README file containing a brief description of the module
 
 ### Current Active Modules
 * [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Core): central module of the SailTrack system, it manages connections and gathers data.
