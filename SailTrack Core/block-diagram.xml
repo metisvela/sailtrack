@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T17:46:30.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="HZsrdEJHqAn1PpsozY9G" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T22:49:53.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="wStQPdWcsbwT0dk8JLUQ" version="13.10.2" type="github">
   <diagram id="nVs1o0DrMwcnErtjXx_R" name="Diagram">
-    <mxGraphModel dx="830" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Dlu4i82-ehiPHmXYPcWT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" parent="1" source="Dlu4i82-ehiPHmXYPcWT-14" target="Dlu4i82-ehiPHmXYPcWT-17" edge="1">
+        <mxCell id="Dlu4i82-ehiPHmXYPcWT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" parent="1" source="Dlu4i82-ehiPHmXYPcWT-14" target="Dlu4i82-ehiPHmXYPcWT-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-46" value="&lt;font style=&quot;font-size: 15px&quot;&gt;USB-C&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=15;" parent="Dlu4i82-ehiPHmXYPcWT-24" vertex="1" connectable="0">
           <mxGeometry x="0.0947" y="1" relative="1" as="geometry">
-            <mxPoint x="-6" as="offset" />
+            <mxPoint x="-32.5" y="-33.8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=18;" parent="1" source="Dlu4i82-ehiPHmXYPcWT-3" target="Dlu4i82-ehiPHmXYPcWT-18" edge="1">
@@ -25,6 +25,14 @@
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-3" value="Raspberry Pi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="200" y="354.5" width="199" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="K7oe0KyvalomKd63SeNg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Dlu4i82-ehiPHmXYPcWT-14" target="K7oe0KyvalomKd63SeNg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K7oe0KyvalomKd63SeNg-3" value="Wired" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="K7oe0KyvalomKd63SeNg-2">
+          <mxGeometry x="-0.6414" y="4" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-14" value="Power Manager&lt;br&gt;+ UPS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="514" y="354.5" width="199" height="61" as="geometry" />
@@ -52,7 +60,7 @@
           <mxGeometry x="514" y="210" width="199" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-17" value="Qi Receiver" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="820" y="350" width="150" height="70" as="geometry" />
+          <mxGeometry x="830" y="415.5" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dlu4i82-ehiPHmXYPcWT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=18;" parent="1" source="Dlu4i82-ehiPHmXYPcWT-18" target="Dlu4i82-ehiPHmXYPcWT-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +87,7 @@
         <mxCell id="Bvl33ocwJGsY3pMKvNfA-1" value="SailTrack Core" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" parent="1" vertex="1">
           <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7t6M8bwjo7K5o8zCXwYO-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="7t6M8bwjo7K5o8zCXwYO-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="760" y="700" width="350" height="62" as="geometry" />
         </mxCell>
         <mxCell id="lqXVsjBw8Z9uIvGtiL6S-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="7t6M8bwjo7K5o8zCXwYO-1" vertex="1">
@@ -102,6 +110,9 @@
         </mxCell>
         <mxCell id="lqXVsjBw8Z9uIvGtiL6S-5" value="Connection Type&lt;br&gt;Communication Protocol (if any)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="7t6M8bwjo7K5o8zCXwYO-1" vertex="1" connectable="0">
           <mxGeometry x="120" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="K7oe0KyvalomKd63SeNg-1" value="Battery LED Indicators" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="830" y="284.5" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
