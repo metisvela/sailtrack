@@ -1,11 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T22:37:21.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="B-YjSW80Iu-i1GtTyXQs" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T17:50:14.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="U4sZc0hRTzRLl1Eic-OS" version="13.10.2" type="github">
   <diagram id="MEcRA20mq65fI7dQFJ5S" name="Page-1">
     <mxGraphModel dx="830" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h0-Ursi9jeOgIvwlDTJJ-1" value="SailTrack Strain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" vertex="1" parent="1">
+        <mxCell id="h0-Ursi9jeOgIvwlDTJJ-1" value="SailTrack Strain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" parent="1" vertex="1">
           <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="700" width="350" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" vertex="1" parent="A6Tq-_yExvr7aH-cbUIV-1">
+          <mxGeometry width="350" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-3" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="A6Tq-_yExvr7aH-cbUIV-1">
+          <mxGeometry x="20" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-4" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="A6Tq-_yExvr7aH-cbUIV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="112" y="20" as="sourcePoint" />
+            <mxPoint x="70" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-5" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="A6Tq-_yExvr7aH-cbUIV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="113" y="41" as="sourcePoint" />
+            <mxPoint x="60" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6Tq-_yExvr7aH-cbUIV-6" value="Connection Type&lt;br&gt;Communication Protocol (if any)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="A6Tq-_yExvr7aH-cbUIV-1">
+          <mxGeometry x="120" y="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
