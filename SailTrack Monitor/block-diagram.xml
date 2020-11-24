@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T12:53:10.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="I3GAujqL2XdnQ7YBmSus" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T17:45:43.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="oz1eIRLLpqL42_iyeEvF" version="13.10.2" type="github">
   <diagram id="hjUEH4msfyzGKsHQrfhx" name="Diagram">
-    <mxGraphModel dx="1186" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OVx03EQgnIGB9eMjIuCt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="690" width="350" height="62" as="geometry" />
+          <mxGeometry x="750" y="700" width="350" height="62" as="geometry" />
         </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="770" y="719" as="geometry" />
@@ -57,10 +57,10 @@
             <mxPoint x="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ReKSflcnTA75Xd07Y9P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="OVx03EQgnIGB9eMjIuCt-9" target="2ReKSflcnTA75Xd07Y9P-1">
+        <mxCell id="2ReKSflcnTA75Xd07Y9P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" parent="1" source="OVx03EQgnIGB9eMjIuCt-9" target="2ReKSflcnTA75Xd07Y9P-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ReKSflcnTA75Xd07Y9P-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="2ReKSflcnTA75Xd07Y9P-4">
+        <mxCell id="2ReKSflcnTA75Xd07Y9P-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="2ReKSflcnTA75Xd07Y9P-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0388" y="-3" relative="1" as="geometry">
             <mxPoint x="5" as="offset" />
           </mxGeometry>
@@ -116,15 +116,15 @@
         <mxCell id="31JeeYRp2xpQGS42S7yO-3" value="Charge Indicator LED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="930" y="323" width="170" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="2ReKSflcnTA75Xd07Y9P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2ReKSflcnTA75Xd07Y9P-1" target="OVx03EQgnIGB9eMjIuCt-11">
+        <mxCell id="2ReKSflcnTA75Xd07Y9P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="2ReKSflcnTA75Xd07Y9P-1" target="OVx03EQgnIGB9eMjIuCt-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ReKSflcnTA75Xd07Y9P-3" value="Wired" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="2ReKSflcnTA75Xd07Y9P-2">
+        <mxCell id="2ReKSflcnTA75Xd07Y9P-3" value="Wired" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="2ReKSflcnTA75Xd07Y9P-2" vertex="1" connectable="0">
           <mxGeometry x="-0.2542" y="-3" relative="1" as="geometry">
             <mxPoint x="2" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ReKSflcnTA75Xd07Y9P-1" value="Battery Fuel Gauge" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="2ReKSflcnTA75Xd07Y9P-1" value="Battery Fuel Gauge" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="690" y="570" width="170" height="61" as="geometry" />
         </mxCell>
       </root>
