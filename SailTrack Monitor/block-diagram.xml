@@ -1,30 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T17:45:43.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="oz1eIRLLpqL42_iyeEvF" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T17:46:50.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="chcVbWgMpyY6OtJYlSKQ" version="13.10.2" type="github">
   <diagram id="hjUEH4msfyzGKsHQrfhx" name="Diagram">
     <mxGraphModel dx="830" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="700" width="350" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="770" y="719" as="geometry" />
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-6" value="" style="endArrow=classic;html=1;fontSize=15;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="862" y="710" as="sourcePoint" />
-            <mxPoint x="820" y="710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-7" value="" style="endArrow=classic;html=1;fontSize=15;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="863" y="731" as="sourcePoint" />
-            <mxPoint x="810" y="731" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-8" value="Connection Type&lt;br&gt;Communication Protocol (if any)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="870" y="719" as="geometry" />
-        </mxCell>
         <mxCell id="OVx03EQgnIGB9eMjIuCt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="OVx03EQgnIGB9eMjIuCt-9" target="OVx03EQgnIGB9eMjIuCt-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -126,6 +105,30 @@
         </mxCell>
         <mxCell id="2ReKSflcnTA75Xd07Y9P-1" value="Battery Fuel Gauge" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="690" y="570" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="GMuvsWCEow2QZN8llzq1-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="700" width="350" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="OVx03EQgnIGB9eMjIuCt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1">
+          <mxGeometry width="350" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="OVx03EQgnIGB9eMjIuCt-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1" connectable="0">
+          <mxGeometry x="20" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="OVx03EQgnIGB9eMjIuCt-6" value="" style="endArrow=classic;html=1;fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="112" y="20" as="sourcePoint" />
+            <mxPoint x="70" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVx03EQgnIGB9eMjIuCt-7" value="" style="endArrow=classic;html=1;fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="113" y="41" as="sourcePoint" />
+            <mxPoint x="60" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVx03EQgnIGB9eMjIuCt-8" value="Connection Type&lt;br&gt;Communication Protocol (if any)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1" connectable="0">
+          <mxGeometry x="120" y="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
