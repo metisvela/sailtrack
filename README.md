@@ -3,8 +3,7 @@ Repository containing the documentation of the SailTrack project.
 
 There is a directory for every active module of the project in which you can find:
 * A README file containing a brief description of the module
-* The XML file of the module's block diagram, created using [diagrams.net](https://www.diagrams.net)
-* The rendered block diagram as a PDF file
+* The rendered SVG image of the module's block diagram, ediatble using [diagrams.net](https://www.diagrams.net)
 * The CSV file of the module's Bill Of Materials (BOM)
 
 ### Current Active Modules
