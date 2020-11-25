@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T17:46:50.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="chcVbWgMpyY6OtJYlSKQ" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T18:07:23.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="hfvElPprT1sEWZ40IXQo" version="13.10.3" type="github">
   <diagram id="hjUEH4msfyzGKsHQrfhx" name="Diagram">
-    <mxGraphModel dx="830" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,9 +89,6 @@
         <mxCell id="OVx03EQgnIGB9eMjIuCt-15" value="Capacitive Plate" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="394.5" y="450" width="170" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="U5PaoAbjhaj6AL8_XkUC-2" value="SailTrack Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;" parent="1" vertex="1">
-          <mxGeometry x="50" y="20" width="566" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="31JeeYRp2xpQGS42S7yO-3" value="Charge Indicator LED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="930" y="323" width="170" height="61" as="geometry" />
         </mxCell>
@@ -105,30 +102,6 @@
         </mxCell>
         <mxCell id="2ReKSflcnTA75Xd07Y9P-1" value="Battery Fuel Gauge" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="690" y="570" width="170" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="GMuvsWCEow2QZN8llzq1-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="760" y="700" width="350" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;dashed=1;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1">
-          <mxGeometry width="350" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-5" value="GPIO&lt;br&gt;(I&lt;sup&gt;2&lt;/sup&gt;C)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="29" as="geometry" />
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-6" value="" style="endArrow=classic;html=1;fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="112" y="20" as="sourcePoint" />
-            <mxPoint x="70" y="20" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-7" value="" style="endArrow=classic;html=1;fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="113" y="41" as="sourcePoint" />
-            <mxPoint x="60" y="41" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OVx03EQgnIGB9eMjIuCt-8" value="Connection Type&lt;br&gt;Communication Protocol (if any)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="GMuvsWCEow2QZN8llzq1-1" vertex="1" connectable="0">
-          <mxGeometry x="120" y="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
