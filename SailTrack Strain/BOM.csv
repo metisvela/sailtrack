@@ -1,5 +1,7 @@
 Part Name, Total Quantity Required, Note
-ESP32,1,
-BF-350 strain gauge, 4,
-HX711 instrumentation amplifier, 1,
-Lipo battery, 1,
+
+Adafruit HUZZAH32, 1, 
+Adafruit FeatherWing Proto, 1, 
+HX711 Load Cell Amplifier Module, 1, 
+Load Cell, 1, DIY or Commercial (to define)
+LiPo Battery 1S 1100mAh, 1,
