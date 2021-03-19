@@ -1,4 +1,5 @@
 Part Name, Total Quantity Required, Note
-ESP32,1,
-AJ-SR04M or similar,3,
-Lipo Battery,1,
+Adafruit HUZZAH32,1,
+AJ-SR04M Ultrasonic Distance Sensor,3,
+Lipo Battery 1S 1100 mAh,1,
+LED Diode 3mm,1,
