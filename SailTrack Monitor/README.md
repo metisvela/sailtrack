@@ -9,3 +9,4 @@ On board monitor for visualizing real time data for the crew.
 
 ### Resources
 * [Bill Of Materials](BOM.csv)
+* [Code Repository](https://github.com/metis-vela-unipd/sailtrack-monitor)
