@@ -5,6 +5,6 @@ Module for getting wind data, such as direction and intensity, based on inexpens
   <img src="block-diagram.svg"/>
 </p>
 
-### Resources
+## Resources
 * [Bill Of Materials](BOM.csv)
 * [Code Repository](https://github.com/metis-vela-unipd/sailtrack-wind)
