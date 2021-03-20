@@ -7,35 +7,11 @@ The goal of the project is to collect data (e.g. wind speed, boat speed, boat di
 * Transmit them to the coach boat or to the ground station for real-time control and monitoring
 
 The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, MQTT.
-Data are categorized into topics, according to the following scheme:
-```
-.
-├── sensor/
-│   ├── gps0/
-│   │   └── ...
-│   ├── imu0/
-│   │   └── ...
-│   ├── wind0/
-│   │   └── ...
-│   └── ...
-├── data/
-│   ├── boat/
-│   │   ├── lat
-│   │   ├── lon
-│   │   ├── sog
-│   │   └── ...
-│   └── wind/
-│       ├── aws
-│       ├── awa
-│       └── ...
-└── module/
-    ├── core/
-    │   ├── bat/
-    │   │   ├── volt
-    │   │   └── level
-    │   └── temp
-    └── ...
-```
+Data are categorized into topics.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/27573242/111881347-56e48b80-89b0-11eb-8050-8026d3ee16c7.png"/>
+</p>
 
 ## Modules Documentation
 The following are the modules in current developement, click on the links to get more detailed informations:
