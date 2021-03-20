@@ -21,6 +21,6 @@ The software is structured in services and tasks. Each task is represented by a 
         └── lora.py
 ```
 
-### Resources
+## Resources
 * [Bill Of Materials](BOM.csv)
 * [Code Repository](https://github.com/metis-vela-unipd/sailtrack-core)
