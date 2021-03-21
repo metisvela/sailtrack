@@ -2,7 +2,7 @@
 Module for measuring the forces acting on the boat maneuvers.
 
 <p align="center">
-  <img src="block-diagram.svg"/>
+  <img src="hardware-diagram.svg"/>
 </p>
 
 ## Resources
