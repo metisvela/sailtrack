@@ -1,11 +1,5 @@
-Part Name, Part Number, Store, Total Quantity Required, Note
-
-Lithium Battery Fuel Gauge, 32683506348, AliExpress, 1, 
-NCR 18650B Li-Ion Battery 3400mAh, 32324914059, AliExpress, 1, 1PCS battery Option
-18650 Li-Ion Battery Holder, B081HW4TGR, Amazon (IT), 1, 
-Li-Ion Battery Charger with Protection Circuit, B0778Z9TFH, Amazon (IT), 1, 
-Universal Qi Receiver, 4000239832349, AliExpress, 1, Type B 5W Option
-
-Waveshare Universal e-Paper ESP32 Driver Board, 32965291143, AliExpress, 1, 
-
-Waveshare 4.2 inch e-Paper Display, 32827328059, AliExpress, 1,  
+Part Name, Total Quantity Required, Note
+Adafruit HUZZAH32, 1, 
+Waveshare 4.2 inch e-Paper Display, 1, 
+Battery, 1, 
+LED Diode 3mm, 1, 
