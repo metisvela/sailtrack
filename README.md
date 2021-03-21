@@ -7,7 +7,6 @@ The goal of the project is to collect data (e.g. wind speed, boat speed, boat di
 * Transmit them to the coach boat or to the ground station for real-time control and monitoring
 
 The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, MQTT.
-Data are categorized into topics.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/27573242/111907630-7c2bd500-8a56-11eb-8349-04d4f7039265.png"/>
