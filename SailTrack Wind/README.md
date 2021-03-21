@@ -1,6 +1,7 @@
 # SailTrack Wind
 Module for getting wind data, such as direction and intensity, based on inexpensive ultrasonic tranducers intended for distance measurements.
 
+## Hardware Architecture
 <p align="center">
   <img src="hardware-diagram.svg"/>
 </p>
