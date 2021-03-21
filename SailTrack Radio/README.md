@@ -2,7 +2,7 @@
 Module for getting GPS data and for transmitting data to the ground base station.
 
 <p align="center">
-  <img src="block-diagram.svg"/>
+  <img src="hardware-diagram.svg"/>
 </p>
 
 ## Resources
