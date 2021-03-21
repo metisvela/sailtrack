@@ -1,6 +1,7 @@
 # SailTrack Radio
 Module for getting GPS data and for transmitting data to the ground base station.
 
+## Hardware Architecture
 <p align="center">
   <img src="hardware-diagram.svg"/>
 </p>
