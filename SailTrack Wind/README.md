@@ -3,7 +3,9 @@ Module for getting wind data, such as direction and intensity, based on inexpens
 
 ## Hardware Architecture
 <p align="center">
-  <img src="hardware-diagram.svg"/>
+  <a href="https://app.diagrams.net/?src=about#Hmetis-vela-unipd%2Fsailtrack-documentation%2Fmain%2FSailTrack%20Wind%2Fhardware-diagram.svg">
+    <img src="hardware-diagram.svg"/>
+  </a>
 </p>
 
 ## Resources
