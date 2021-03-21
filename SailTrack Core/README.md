@@ -6,7 +6,7 @@ Central module of the SailTrack system, it manages connections and gathers data.
   <img src="hardware-diagram.svg"/>
 </p>
 
-## Software Architecture [DRAFT]
+## Software Architecture
 <p align="center">
   <img src="software-diagram.svg"/>
 </p>
