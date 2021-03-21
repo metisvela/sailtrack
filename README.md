@@ -10,7 +10,7 @@ The system is structured in modules, connected to each other via Wi-Fi, and comm
 Data are categorized into topics.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/27573242/111881494-e722d080-89b0-11eb-9571-58be2180b0d4.png"/>
+  <img src="https://user-images.githubusercontent.com/27573242/111907630-7c2bd500-8a56-11eb-8349-04d4f7039265.png"/>
 </p>
 
 ## Modules Documentation
