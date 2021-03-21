@@ -1,5 +1,5 @@
 # SailTrack Core
-Central module of the SailTrack system, it manages connections and gathers data. This module is based on a Raspberry Pi, running the latest version of Raspberry Pi OS.
+Central module of the SailTrack system, it manages connections and gathers data. This module is based on a Raspberry Pi, running the latest version of Raspberry Pi OS. This module contains also the IMU sensor.
 
 ## Hardware Architecture
 <p align="center">
