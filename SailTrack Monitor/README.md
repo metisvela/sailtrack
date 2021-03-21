@@ -4,7 +4,7 @@ On board monitor for visualizing real time data for the crew.
 ### [Draft Scheme]
 
 <p align="center">
-  <img src="block-diagram.svg"/>
+  <img src="hardware-diagram.svg"/>
 </p>
 
 ## Resources
