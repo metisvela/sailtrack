@@ -9,7 +9,7 @@ The goal of the project is to collect data (e.g. wind speed, boat speed, boat di
 The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, MQTT.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/27573242/111907630-7c2bd500-8a56-11eb-8349-04d4f7039265.png"/>
+  <img src="https://user-images.githubusercontent.com/27573242/113482960-439de980-94a1-11eb-9db5-045918527444.png"/>
 </p>
 
 ## Modules Documentation
