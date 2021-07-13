@@ -11,3 +11,4 @@ Central module of the SailTrack system, it manages connections and gathers data.
 ## Resources
 * [Bill Of Materials](BOM.csv)
 * [Code Repository](https://github.com/metis-vela-unipd/sailtrack-core)
+* [3D Printed Enclosure](STL)
