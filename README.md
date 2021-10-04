@@ -1,4 +1,10 @@
-# SailTrack Documentation
+<p align="center">
+  <img src="Design/SailTrack Logo.png" width="180">
+</p>
+
+<p align="center"><b>Sailing Performance Tracker built by the Métis Vela Unipd team</b></p>
+
+## Introduction
 SailTrack is a performance tracker for sailing boats.
 This system is built by the Métis Vela Unipd team, a student project of the University of Padua that designs and build high performance small sailing boats used in regattas against other universities.
 The goal of the project is to collect data (e.g. wind speed, boat speed, boat direction,...) through several sensors placed in the boat in order to:
