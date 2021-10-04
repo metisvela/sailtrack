@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="238px" height="175px" viewBox="0 0 238 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SailTrack Logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-2.000000, -27.000000)" fill="#000000">
+            <text id="TRACK" font-family="Montserrat-Bold, Montserrat" font-size="61" font-weight="bold">
+                <tspan x="11.749" y="192">TRACK</tspan>
+            </text>
+            <path d="M169.05723,37.1062669 L185.05723,64.9092669 L185.05723,127.106267 L220.84923,127.106267 L230.05723,143.106267 L169.05723,143.106267 L169.05723,37.1062669 Z" id="L"></path>
+            <text id="I" font-family="BebasNeue-Bold, Bebas Neue" font-size="151" font-weight="bold">
+                <tspan x="132.655" y="143">I</tspan>
+            </text>
+            <path d="M124.05723,37.1062669 L124.05723,143.106267 L108.05723,143.106267 L108.05723,92.1062669 L75.3402303,143.106267 L56.0572303,143.106267 L124.05723,37.1062669 Z" id="A"></path>
+            <text id="S" font-family="BebasNeue-Bold, Bebas Neue" font-size="150" font-weight="bold">
+                <tspan x="8.95" y="143">S</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
