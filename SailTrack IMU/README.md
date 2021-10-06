@@ -12,3 +12,4 @@ Module for getting combined orientation and acceleration data of the boat.
 ## Resources
 * [Bill Of Materials](BOM.csv)
 * [Code Repository](https://github.com/metis-vela-unipd/sailtrack-imu)
+* [3D Printed Enclosure](STL)
