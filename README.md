@@ -17,6 +17,7 @@ The system is structured in modules, connected to each other via Wi-Fi, and comm
 <p align="center">
   <img src="https://user-images.githubusercontent.com/27573242/136206623-393e4144-e4ed-4d22-a07a-c7694120c3a7.png" width="500">
 </p>
+
 ## Data Collection Architecture
 
 The following tools and protocols have been used in order to collect and monitor the measurements:
