@@ -1,14 +1,8 @@
 # SailTrack Monitor
 On board monitor for visualizing real time data for the crew.
 
-## Hardware Architecture
-<p align="center">
-  <a href="https://app.diagrams.net/?src=about#Hmetis-vela-unipd%2Fsailtrack-documentation%2Fmain%2FSailTrack%20Monitor%2Fhardware-diagram.svg">
-    <img src="hardware-diagram.svg"/>
-  </a>
-</p>
+*In progress...*
+
 
 ## Resources
-* [Bill Of Materials](BOM.csv)
-* [Code Repository](https://github.com/metis-vela-unipd/sailtrack-monitor)
-* [3D Printed Enclosure](STL)
+* [Module Repository](https://github.com/metis-vela-unipd/sailtrack-monitor)
