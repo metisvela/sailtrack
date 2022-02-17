@@ -30,7 +30,7 @@ The following tools and protocols have been used in order to collect and monitor
 - [InfluxDB](https://www.influxdata.com/products/influxdb/): time-series database used to store measurements, logs, computed and raw data. It's one of the leading platforms for time-series application and it's highly optimized for this kind of use case.
 - [Grafana](https://grafana.com): modular visualization tool that can be connected to a variety of data sources (included InfluxDB) and generates graphs, maps, and plots. It is possible to build highly customized dashboards for every kind of application scenario.
 
-![data-collection-architecture](/Users/matteocarnelos/UNIPD/Metis/Repositories/sailtrack-documentation/Graphics/Data Acquisition Diagram.png)
+![data-collection-architecture](Graphics/Data%20Acquisition%20Diagram.png)
 
 ## Modules Documentation
 
