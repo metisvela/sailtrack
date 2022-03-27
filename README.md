@@ -35,9 +35,9 @@ The following tools and protocols have been used in order to collect and monitor
 ## Modules Documentation
 
 The following are the modules in current developement, click on the links to get more detailed information:
-* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Core): central module of the SailTrack system, it manages connections and gathers data
-* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Radio): module for getting GPS data and for transmitting data to the ground base station
-* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Monitor): on board monitor for visualizing real time data for the crew
-* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Strain): module for measuring the forces acting on the boat maneuvers
-* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Wind): module for getting wind data, such as direction and intensity
-* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20IMU): module for getting combined orientation and acceleration data of the boat
+* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Core): central module, it manages connections and gathers data.
+* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Radio): module for getting GPS data and for transmitting data to the ground base station.
+* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Monitor): on board monitor for visualizing real time data for the crew.
+* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Strain): module for measuring the forces acting on the boat maneuvers.
+* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20Wind): module for getting wind data, such as direction and intensity.
+* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-documentation/tree/main/SailTrack%20IMU): module for getting combined orientation and acceleration data of the boat.
