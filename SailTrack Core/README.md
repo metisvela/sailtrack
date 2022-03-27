@@ -1,5 +1,5 @@
 # SailTrack Core
-Central module of the SailTrack system, it manages connections and gathers data.
+Central module, it manages connections and gathers data.
 
 *In progress...*
 
