@@ -40,8 +40,8 @@ The following tools and protocols have been used in order to collect and monitor
 The following are the modules in current developement, click on the links to get more detailed information:
 * [SailTrack Core](SailTrack%20Core): central module, it manages connections and gathers data.
 * [SailTrack Radio](SailTrack%20Radio): module for getting GPS data and for transmitting data to the ground base station.
+* [SailTrack IMU](SailTrack%20IMU): module for getting combined orientation and acceleration data of the boat.
 * [SailTrack Monitor](SailTrack%20Monitor): on board monitor for visualizing real time data for the crew.
 * [SailTrack Strain](SailTrack%20Strain): module for measuring the forces acting on the boat maneuvers.
 * [SailTrack Wind](SailTrack%20Wind): module for getting wind data, such as direction and intensity.
-* [SailTrack IMU](SailTrack%20IMU): module for getting combined orientation and acceleration data of the boat.
 * [SailTrack Ground](SailTrack%20Ground): ground station for getting real-time data from the boat.
