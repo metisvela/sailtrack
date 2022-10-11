@@ -18,11 +18,33 @@ The goal of the project is to collect data (e.g. wind speed, boat speed, boat di
 * Show them to the crew through an onboard display.
 * Transmit them to the coach boat or to the ground station for real-time control and monitoring.
 
-The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, MQTT.
+The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, [MQTT](https://mqtt.org).
 
 <p align="center">
   <img src="Assets/Modules Diagram.svg" width="500">
 </p>
+
+The following are the modules that have been developed for the SailTrack system, follow the link to open the module's repository:
+
+* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-core): central module, it manages connections and gathers data.
+* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-radio): module for getting GPS data and for transmitting data to the ground base station.
+* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-imu): module for getting combined orientation and acceleration data of the boat.
+* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-monitor): on board monitor for visualizing real time data for the crew.
+* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-strain): module for measuring the forces acting on the boat maneuvers.
+* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-wind): module for getting wind data, such as direction and intensity.
+* [SailTrack Ground](https://github.com/metis-vela-unipd/sailtrack-ground): ground station for getting real-time data from the boat.
+
+![modules-image](Assets/Modules%20Image.jpg)
+
+## Getting Started
+
+To get started with the SailTrack system, you will need the SailTrack Core module and some other modules, depending on your application. For example, if you are interested in GPS data only, you will only need the SailTrack Core and SailTrack Radio modules. The SailTrack Core module is mandatory as it carries out the essential tasks for the system.
+
+To build and assemble a module, refer to the `hardware` directory present in every module's repository. Inside it you will the find the Bill Of Materials, the Connection Diagram and the STL files for the printable enclosure.
+
+Once the module has been assembled, you can follow the installation procecss described in the `Installation` section of each module's repository, and finally the `Usage` section to learn how to use the module.
+
+If you encounter any problem during the setup or the usage of the system, please open an issue on the specific module's repository.
 
 ## Data Collection Architecture
 
@@ -56,16 +78,6 @@ Every published message is formatted using [JSON](https://www.json.org/json-en.h
 }
 ```
 
-## Modules Repositories
+## License
 
-The following are the modules in current developement, click on the links to get more detailed information:
-
-* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-core): central module, it manages connections and gathers data.
-* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-radio): module for getting GPS data and for transmitting data to the ground base station.
-* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-imu): module for getting combined orientation and acceleration data of the boat.
-* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-monitor): on board monitor for visualizing real time data for the crew.
-* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-strain): module for measuring the forces acting on the boat maneuvers.
-* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-wind): module for getting wind data, such as direction and intensity.
-* [SailTrack Ground](https://github.com/metis-vela-unipd/sailtrack-ground): ground station for getting real-time data from the boat.
-
-![modules-image](Assets/Modules%20Image.jpg)
+Copyright © 2022, [Métis Vela Unipd](https://github.com/metis-vela-unipd). SailTrack is available under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
