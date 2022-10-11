@@ -78,6 +78,12 @@ Every published message is formatted using [JSON](https://www.json.org/json-en.h
 }
 ```
 
+## Contributing
+
+Contributors are welcome. If you are a student of the University of Padua, please apply for the Métis Vela Unipd team in the [website](http://metisvela.dii.unipd.it), specifying in the appliaction form that you are interested in contributing to the SailTrack Project. If you are not a student of the University of Padua, feel free to open Pull Requests and Issues to contribute to the project.
+
+You will find more detailed information on how to contribute to the project in the `Contributing` section of each module's repository.
+
 ## License
 
 Copyright © 2022, [Métis Vela Unipd](https://github.com/metis-vela-unipd). SailTrack is available under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
