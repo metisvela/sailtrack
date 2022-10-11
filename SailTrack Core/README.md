@@ -3,7 +3,7 @@ The SailTrack Core module is, as the name says, the main component of the system
 
 SailTrack Core is an essential component for the system because it performs the following tasks:
 
-* It creates the SailTrack-CoreNet, the WiFi network needed by all the modules to communicate.
+* It creates the SailTrack Network, the WiFi network needed by all the modules to communicate.
 * It acts as the [MQTT](https://mqtt.org) Broker, managing the exchange of MQTT messages between modules.
 * It runs the [InfluxDB](https://www.influxdata.com) database, gathering all the measurements coming from the sensors.
 * It runs the [Grafana](https://grafana.com) server, for the visualization of real-time and logged metrics.
