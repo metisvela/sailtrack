@@ -24,6 +24,8 @@ The system is structured in modules, connected to each other via Wi-Fi, and comm
   <img src="Assets/Modules Diagram.svg" width="500">
 </p>
 
+## Modules
+
 The following are the modules that have been developed for the SailTrack system, follow the link to open the module's repository:
 
 * [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-core): central module, it manages connections and gathers data.
