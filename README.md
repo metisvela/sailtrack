@@ -4,7 +4,7 @@
 <p align="center"><b>Sailing Performance Tracker built by the Métis Vela Unipd team</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/metis-vela-unipd/sailtrack-docs">
+  <img src="https://img.shields.io/github/license/metis-vela-unipd/sailtrack">
 </p>
 
 ![dashboard-image](Assets/Dashboard%20Image.png)
@@ -88,4 +88,4 @@ You will find more detailed information on how to contribute to the project in t
 
 ## License
 
-Copyright © 2022, [Métis Vela Unipd](https://github.com/metis-vela-unipd). SailTrack is available under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Copyright © 2023, [Métis Vela Unipd](https://github.com/metis-vela-unipd). SailTrack is available under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
