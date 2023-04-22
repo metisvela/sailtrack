@@ -28,13 +28,13 @@ The system is structured in modules, connected to each other via Wi-Fi, and comm
 
 The following are the modules that have been developed for the SailTrack system, follow the link to open the module's repository:
 
-* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-core): central module, it manages connections and gathers data.
-* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-radio): module for getting GPS data and for transmitting data to the ground base station.
-* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-imu): module for getting combined orientation and acceleration data of the boat.
-* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-monitor): on board monitor for visualizing real time data for the crew.
-* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-strain): module for measuring the forces acting on the boat maneuvers.
-* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-wind): module for getting wind data, such as direction and intensity.
-* [SailTrack Ground](https://github.com/metis-vela-unipd/sailtrack-ground): ground station for getting real-time data from the boat.
+* [SailTrack Core](https://github.com/metis-vela-unipd/sailtrack-core): Central module, it manages connections and gathers data.
+* [SailTrack Radio](https://github.com/metis-vela-unipd/sailtrack-radio): Module for getting GPS data and for transmitting data to the ground base station.
+* [SailTrack IMU](https://github.com/metis-vela-unipd/sailtrack-imu): Module for getting combined orientation and acceleration data of the boat.
+* [SailTrack Monitor](https://github.com/metis-vela-unipd/sailtrack-monitor): On board monitor for visualizing real time data for the crew.
+* [SailTrack Strain](https://github.com/metis-vela-unipd/sailtrack-strain): Module for measuring the forces acting on the boat maneuvers.
+* [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-wind): Module for getting wind data, such as direction and intensity.
+* [SailTrack Ground](https://github.com/metis-vela-unipd/sailtrack-ground): Ground station for getting real-time data from the boat.
 
 ![modules-image](Assets/Modules%20Image.jpg)
 
@@ -52,10 +52,10 @@ If you encounter any problem during the setup or the usage of the system, please
 
 The following tools and protocols have been used in order to collect and monitor the measurements:
 
-* [MQTT](https://mqtt.org): messaging protocol used to communicate between modules over WiFi using the publish-subscribe pattern. The lightness, speed and ease of use of the protocol determined its choice.
-* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/): tool used to collect metrics from different sources (e.g. MQTT messages) and store them in several possible ways (e.g. in a database). It's part of the InfluxData TICK Stack, therefore it's easily configurable to work with the InfluxDB database.
-* [InfluxDB](https://www.influxdata.com/products/influxdb/): time-series database used to store measurements, logs, computed and raw data. It's one of the leading platforms for time-series application and it's highly optimized for this kind of use case.
-* [Grafana](https://grafana.com): modular visualization tool that can be connected to a variety of data sources (included InfluxDB) and generates graphs, maps, and plots. It is possible to build highly customized dashboards for every kind of application scenario.
+* [MQTT](https://mqtt.org): Messaging protocol used to communicate between modules over WiFi using the publish-subscribe pattern. The lightness, speed and ease of use of the protocol determined its choice.
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/): Tool used to collect metrics from different sources (e.g. MQTT messages) and store them in several possible ways (e.g. in a database). It's part of the InfluxData TICK Stack, therefore it's easily configurable to work with the InfluxDB database.
+* [InfluxDB](https://www.influxdata.com/products/influxdb/): Time-series database used to store measurements, logs, computed and raw data. It's one of the leading platforms for time-series application and it's highly optimized for this kind of use case.
+* [Grafana](https://grafana.com): Modular visualization tool that can be connected to a variety of data sources (included InfluxDB) and generates graphs, maps, and plots. It is possible to build highly customized dashboards for every kind of application scenario.
 
 ![data-acquisition-diagram](Assets/Data%20Acquisition%20Diagram.svg)
 
@@ -63,10 +63,10 @@ The following tools and protocols have been used in order to collect and monitor
 
 Each module communicates with the others by using the MQTT Messaging Protocol, and in particular, the following MQTT Topic Scheme:
 
-* `sensor` topic: it contains the raw readings coming from the sensors placed in the modules, each sensor is identified by its name. Example sub-topics: `sensor/gps0`, `sensor/imu0`, `sensor/strain0`, `sensor/strain1`,....
-* `status` topic: it contains the status messages (containing battery voltage, cpu temperature, load indexes,...) coming from the modules, each one identified by its name. Example sub-topics: `status/core`, `status/imu`, `status/radio`,....
-* `boat` topic: it contains the filtered and processed metrics regarding the boat (SOG, COG, Heading, Pitch, Roll,...).
-* `wind` topic: it contains the filtered and processed metrics regarding the wind (TWA, TWD, TWS, AWD, AWS,...).
+* `sensor` topic: It contains the raw readings coming from the sensors placed in the modules, each sensor is identified by its name. Example sub-topics: `sensor/gps0`, `sensor/imu0`, `sensor/strain0`, `sensor/strain1`,....
+* `status` topic: It contains the status messages (containing battery voltage, cpu temperature, load indexes,...) coming from the modules, each one identified by its name. Example sub-topics: `status/core`, `status/imu`, `status/radio`,....
+* `boat` topic: It contains the filtered and processed metrics regarding the boat (SOG, COG, Heading, Pitch, Roll,...).
+* `wind` topic: It contains the filtered and processed metrics regarding the wind (TWA, TWD, TWS, AWD, AWS,...).
 
 Every published message is formatted using [JSON](https://www.json.org/json-en.html). Example message published under the `sensor/gps0` topic:
 ```json
