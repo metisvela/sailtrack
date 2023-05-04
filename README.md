@@ -1,7 +1,3 @@
----
-title: sailtrack
----
-
 <p align="center">
   <img src="Assets/SailTrack Logo.svg" width="180">
 </p>
