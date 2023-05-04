@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/SailTrack Logo.svg" width="180">
+  <img src="assets/SailTrack Logo.svg" width="180">
 </p>
 <p align="center"><b>Sailing Performance Tracker built by the Métis Vela Unipd team</b></p>
 
@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/license/metis-vela-unipd/sailtrack">
 </p>
 
-![dashboard-image](Assets/Dashboard%20Image.png)
+![dashboard-image](assets/Dashboard%20Image.png)
 
 ## Introduction
 SailTrack is a performance tracker for sailing boats.
@@ -21,7 +21,7 @@ The goal of the project is to collect data (e.g. wind speed, boat speed, boat di
 The system is structured in modules, connected to each other via Wi-Fi, and communicating through a publish-subscribe messaging protocol, namely, [MQTT](https://mqtt.org).
 
 <p align="center">
-  <img src="Assets/Modules Diagram.svg" width="500">
+  <img src="assets/Modules Diagram.svg" width="500">
 </p>
 
 ## Modules
@@ -36,7 +36,7 @@ The following are the modules that have been developed for the SailTrack system,
 * [SailTrack Wind](https://github.com/metis-vela-unipd/sailtrack-wind): Module for getting wind data, such as direction and intensity.
 * [SailTrack Ground](https://github.com/metis-vela-unipd/sailtrack-ground): Ground station for getting real-time data from the boat.
 
-![modules-image](Assets/Modules%20Image.jpg)
+![modules-image](assets/Modules%20Image.jpg)
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ The following tools and protocols have been used in order to collect and monitor
 * [InfluxDB](https://www.influxdata.com/products/influxdb/): Time-series database used to store measurements, logs, computed and raw data. It's one of the leading platforms for time-series application and it's highly optimized for this kind of use case.
 * [Grafana](https://grafana.com): Modular visualization tool that can be connected to a variety of data sources (included InfluxDB) and generates graphs, maps, and plots. It is possible to build highly customized dashboards for every kind of application scenario.
 
-![data-acquisition-diagram](Assets/Data%20Acquisition%20Diagram.svg)
+![data-acquisition-diagram](assets/Data%20Acquisition%20Diagram.svg)
 
 ## Messaging Architecture
 
