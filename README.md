@@ -5,6 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/license/metis-vela-unipd/sailtrack">
+  <img src="https://img.shields.io/github/stars/metis-vela-unipd/sailtrack">
 </p>
 
 ![dashboard-image](assets/Dashboard%20Image.png)
