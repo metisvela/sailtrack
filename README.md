@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/SailTrack Logo.svg" width="180">
 </p>
-<p align="center"><b>Sailing Performance Tracker built by the Métis Vela Unipd team</b></p>
+<p align="center"><b>Sailing Performance Tracker built by the Metis Sailing Team</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/metis-vela-unipd/sailtrack">
