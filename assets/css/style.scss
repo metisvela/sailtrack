@@ -1,12 +1,16 @@
 ---
 ---
 
+$header-bg-color: #B20E10;
+$header-bg-color-secondary: #243882;
+$section-headings-color: $header-bg-color;
+
 @import "{{ site.theme }}";
 
-h1 {
-  display: none;
+.page-header {
+  padding-bottom: 0;
 }
 
-.footer {
+.readme-header {
   display: none;
 }

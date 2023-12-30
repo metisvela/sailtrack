@@ -1,2 +1,7 @@
+remote_theme: pages-themes/cayman
+plugins:
+  - jekyll-remote-theme
+  - jekyll-readme-index
+
 title: SailTrack
-description: Performance tracker for sailing boats, built by the Métis Vela Unipd team
+description: Sailing Performance Tracker built by the Metis Sailing Team
