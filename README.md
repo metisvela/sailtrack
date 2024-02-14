@@ -81,6 +81,12 @@ Every published message is formatted using [JSON](https://www.json.org/json-en.h
 }
 ```
 
+## Sponsor
+
+Many thanks to [LilyGo](https://www.lilygo.cc) for supporting the project with their products.
+
+<img src="assets/lilygo-logo.png" height="100">
+
 ## Contributing
 
 Contributors are welcome. If you are a student of the University of Padova, please apply for the Metis Sailing Team in the [website](http://metisvela.dii.unipd.it), specifying in the application form that you are interested in contributing to the SailTrack Project. If you are not a student of the University of Padova, feel free to open Pull Requests and Issues to contribute to the project.
