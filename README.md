@@ -12,7 +12,7 @@
 
 ## Overview
 SailTrack is a performance tracker for sailing boats.
-This system is built by the [Metis Sailing Team](http://metisvela.dii.unipd.it), a student project of the University of Padova that designs and build high performance small sailing boats used in regattas against other universities.
+This system is built by the [Metis Sailing Team](http://metisvela.dii.unipd.it), a student project of the University of Padova that designs and builds high performance small sailing boats used in regattas against other universities.
 The goal of the project is to collect data (e.g. wind speed, boat speed, boat direction,...) through several sensors placed in the boat in order to:
 
 * Store them in a database for later analysis
