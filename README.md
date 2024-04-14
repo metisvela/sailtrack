@@ -2,7 +2,7 @@
   <img src="assets/sailtrack-logo.svg" width="180">
 </p>
 
-<h3 class="readme-header" align="center">Sailing Performance Tracker built by the Metis Sailing Team</h3>
+<h3 class="readme-header" align="center">Performance Tracker for Racing Sailboats</h3>
 <p class="readme-header" align="center">
   <img src="https://img.shields.io/github/license/metisvela/sailtrack">
   <img src="https://img.shields.io/github/stars/metisvela/sailtrack">
